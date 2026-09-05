@@ -1,0 +1,40 @@
+version = 1
+agents = ["claude", "cursor", "codex"]
+
+[[skills]]
+name = "codex"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "cross-service-research"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "pr-title"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "python-standards"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "review-triage"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "skill-exporter"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "ts-bun-review"
+source = "miltonparedes/dotagents"
+
+[[skills]]
+name = "ts-deno-review"
+source = "miltonparedes/dotagents"
+
+# Private skills stay out of this public repo.
+# Use a local path, or point source at a private GitHub repo you trust.
+# [[skills]]
+# name = "private-skill"
+# source = "path:./private/my-skill"
